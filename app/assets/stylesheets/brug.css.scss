@@ -357,19 +357,22 @@ nav ul li.active:active a {
   margin-bottom: modular-scale(18px, 2, 1.618);
 }
 
-#members a {
-  border: 0;
-}
+#members wrapper a {
+  display: block;
+  float: left;
+  background-size: 100%;
+  background-size: cover;
+  background-position: 50% 50%;
 
-#members a:link img,
-#members a:visited img {
   width: modular-scale(18px, 4, 1.618);
   height: modular-scale(18px, 4, 1.618);
   margin: modular-scale(18px, -1, 1.618);
   border-radius: ceil(modular-scale(18px, 4, 1.618)/2);
   -webkit-border-radius: ceil(modular-scale(18px, 4, 1.618)/2);
-  overflow: hidden;
-  display: inline-block;
+}
+
+#members a {
+  border: 0;
   opacity: 0.8;
   transition: opacity 0.5s;
   -moz-transition: opacity 0.5s;
@@ -377,8 +380,8 @@ nav ul li.active:active a {
   -o-transition: opacity 0.5s;
 }
 
-#members a:hover img,
-#members a:active img {
+#members a:hover,
+#members a:active {
   opacity: 1;
   transition: opacity 0.5s;
   -moz-transition: opacity 0.5s;
