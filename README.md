@@ -32,3 +32,4 @@ Runs on [Openminds](http://openminds.be). Contact us if you would like to be abl
 
 [![PullReview
 stats](https://www.pullreview.com/github/brug-be/brug/badges/master.svg?)](https://www.pullreview.com/github/brug-be/brug/reviews/master) [![Build Status](https://travis-ci.org/brug-be/brug.svg?branch=master)](https://travis-ci.org/brug-be/brug)
+[![Build Status](https://semaphoreci.com/api/v1/projects/4769fe70-4029-49d5-88af-dccd5e65a7f3/419184/badge.svg)](https://semaphoreci.com/joren/brug)
